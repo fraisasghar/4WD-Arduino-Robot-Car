@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Open--Source-Hardware-000000?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
 </div>
 
-
+<br>
 
 
 ## Introduction:
@@ -47,14 +47,14 @@ Through this project, you'll gain hands-on experience with:
 
 | Component | Quantity | Specification | Approx. Price |
 |-----------|----------|---------------|---------------|
-| **Arduino Uno/Nano** | 1 | ATmega328P, 16MHz | $10-$20 |
-| **L298N Motor Driver** | 1 | Dual H-Bridge, 2A per channel | $5-$8 |
-| **HC-05 Bluetooth Module** | 1 | Bluetooth 2.0+EDR, 3.3V-5V | $4-$7 |
-| **4WD Robot Chassis** | 1 | With 4 DC motors and wheels | $15-$25 |
-| **18650 Battery Holder** | 1 | 2-cell with switch | $3-$5 |
-| **18650 Batteries** | 2 | 3.7V, 2000mAh+ | $10-$15 |
-| **Jumper Wires** | 20+ | Male-to-Male, Male-to-Female | $2-$4 |
-| **Breadboard** | 1 | 400/800 points | $3-$5 |
+| **Arduino Uno/Nano** | 1 | ATmega328P, 16MHz | 1000-1500 PKR |
+| **L298N Motor Driver** | 1 | Dual H-Bridge, 2A per channel | 500-700 PKR |
+| **HC-05 Bluetooth Module** | 1 | Bluetooth 2.0+EDR, 3.3V-5V | 700-900PKR |
+| **4WD Robot Chassis** | 1 | With 4 DC motors and wheels | 1800-2200 PKR |
+| **18650 Battery Holder** | 1 | 3-cell with switch | 200-300 |
+| **18650 Batteries** | 2 | 3.7V, 2000mAh+ | 600-800 |
+| **Jumper Wires** | 20+ | Male-to-Male, Male-to-Female | 100-200 |
+| **Breadboard** | 1 | 400/800 points | 400-500 |
 
 ### Additional Optional Components:
 
@@ -69,6 +69,8 @@ Through this project, you'll gain hands-on experience with:
 ## Circuit Diagram
 
 
+<img width="912" height="720" alt="Image" src="https://github.com/user-attachments/assets/75fc23a3-481d-4da5-9e5d-5f29707ecf53" />
+<img width="1200" height="700" alt="Image" src="https://github.com/user-attachments/assets/4865ce66-9331-477b-a108-7dafa4fec372" />
 
 
 ### Connection Table
