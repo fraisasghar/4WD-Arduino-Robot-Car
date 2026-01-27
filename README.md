@@ -15,11 +15,17 @@
 <br>
 
 
+
 ## Introduction:
 Welcome to the **4WD Arduino Robot Car** project repository! This is a comprehensive, open-source robotics project that implements a fully functional 4-wheel drive robot car controlled wirelessly via Bluetooth from a mobile device. Designed for enthusiasts, students, and hobbyists, this project combines hardware assembly, Arduino programming, and wireless communication to create an interactive robotics platform.
 
 ### Project Overview:
 This project transforms a standard 4WD robot chassis into a smart, wirelessly controlled vehicle using Arduino microcontroller, Bluetooth module, and motor driver circuitry.
+
+
+
+![Image](https://github.com/user-attachments/assets/ee4ec3c8-16d7-49fc-9884-78d5903e9864)
+
 
 ### Learning Objectives:
 Through this project, you'll gain hands-on experience with:
@@ -28,6 +34,7 @@ Through this project, you'll gain hands-on experience with:
 - Wireless communication protocols
 - Motor control principles
 - Mobile-robot integration
+
 
 ## Features:
 
@@ -109,3 +116,19 @@ Through this project, you'll gain hands-on experience with:
    Step 3: Connect motors to L298N outputs
    Step 4: Wire power system and batteries
    Step 5: Connect all control wires as per circuit diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
