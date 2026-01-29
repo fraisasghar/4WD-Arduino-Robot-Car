@@ -116,19 +116,17 @@ Through this project, you'll gain hands-on experience with:
    Step 3: Connect motors to L298N outputs
    Step 4: Wire power system and batteries
    Step 5: Connect all control wires as per circuit diagram
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+5. Make these 10 connections:
+   • Arduino 5V → L298N +5V
+   • Arduino GND → L298N GND
+   • D5 → IN1, D6 → IN2, D9 → ENA
+   • D7 → IN3, D8 → IN4, D10 → ENB
+   • Battery + → L298N +12V
+   • Battery - → L298N GND
+   • Arduino 5V → HC-05 VCC
+   • Arduino GND → HC-05 GND
+   • Arduino TX → HC-05 RX
+   • Arduino RX → HC-05 TX
+6. Upload the code
+7. Pair Bluetooth (PIN: 1234)
+8. Test with mobile app
