@@ -80,30 +80,7 @@ Through this project, you'll gain hands-on experience with:
 <img width="1200" height="700" alt="Image" src="https://github.com/user-attachments/assets/4865ce66-9331-477b-a108-7dafa4fec372" />
 
 
-### Connection Table
 
-| Arduino Pin | L298N Pin | Bluetooth Module | Function |
-|-------------|-----------|------------------|----------|
-| **D5** | IN1 | - | Motor A Direction 1 |
-| **D6** | IN2 | - | Motor A Direction 2 |
-| **D9** | ENA | - | Motor A Speed (PWM) |
-| **D7** | IN3 | - | Motor B Direction 1 |
-| **D8** | IN4 | - | Motor B Direction 2 |
-| **D10** | ENB | - | Motor B Speed (PWM) |
-| **5V** | - | VCC | Bluetooth Power |
-| **GND** | GND | GND | Common Ground |
-| **TX (D1)** | - | RX | Serial Communication |
-| **RX (D0)** | - | TX | Serial Communication |
-| - | +12V | - | Motor Power (6-12V) |
-| - | +5V | - | Logic Power (5V) |
-
-### Power Connections
-
-| Power Source | Connection Point | Voltage |
-|--------------|------------------|---------|
-| 18650 Battery Pack | L298N +12V | 7.4V |
-| Arduino USB/5V | L298N +5V | 5V |
-| Arduino 5V | HC-05 VCC | 5V |
 
 ## Installation
 
@@ -126,6 +103,7 @@ Through this project, you'll gain hands-on experience with:
    • Arduino GND → HC-05 GND
    • Arduino TX → HC-05 RX
    • Arduino RX → HC-05 TX
-Step 6. Upload the code
-Step 7. Pair Bluetooth (PIN: 1234)
-Step 8. Test with mobile app
+    Step 6. Upload the code
+    Step 7. Pair Bluetooth (PIN: 1234)
+    Step 8. Test with mobile app
+
