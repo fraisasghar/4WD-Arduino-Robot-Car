@@ -63,7 +63,7 @@ This project transforms a standard 4WD robot chassis into a smart, wirelessly  c
 | **L298N Motor Driver** | 1 | Dual H-Bridge, 2A per channel | 500-700 PKR |
 | **HC-05 Bluetooth Module** | 1 | Bluetooth 2.0+EDR, 3.3V-5V | 700-900PKR |
 | **4WD Robot Chassis** | 1 | With 4 DC motors and wheels | 1800-2200 PKR |
-| **18650 Battery Holder** | 1 | 3-cell with switch | 200-300 |
+| **18650 Battery Holder** | 1 | 3-cell with switch | 400-500 |
 | **18650 Batteries** | 2 | 3.7V, 2000mAh+ | 600-800 |
 | **Jumper Wires** | 20+ | Male-to-Male, Male-to-Female | 100-200 |
 | **Breadboard** | 1 | 400/800 points | 400-500 |
@@ -156,7 +156,7 @@ Connect battery to car. Check these lights:
 <div align="center">
   <h3>🌟 Enjoy Your Robot Car! 🚗</h3>
   
-  <p>If this project helped you, please give it a ⭐ Star on GitHub!</p>
+  <p>If this project helped you. So, give it a ⭐ Star on GitHub!</p>
   
   <p>
     <strong>Built with ❤️ for the Robotics Community</strong><br>
