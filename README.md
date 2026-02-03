@@ -27,13 +27,7 @@ This project transforms a standard 4WD robot chassis into a smart, wirelessly co
 ![Image](https://github.com/user-attachments/assets/ee4ec3c8-16d7-49fc-9884-78d5903e9864)
 
 
-### Learning Objectives:
-Through this project, you'll gain hands-on experience with:
-- Electronics circuit design and assembly
-- Arduino programming in C++
-- Wireless communication protocols
-- Motor control principles
-- Mobile-robot integration
+
 
 
 ## Features:
@@ -106,4 +100,59 @@ Through this project, you'll gain hands-on experience with:
     Step 6. Upload the code
     Step 7. Pair Bluetooth (PIN: 1234)
     Step 8. Test with mobile app
+
+
+
+
+
+## 💻 Software Setup
+```bash
+
+### Step 1: Install Arduino IDE
+1. Go to https://www.arduino.cc/en/software
+2. Download Arduino IDE for your operating system
+3. Install the software following on-screen instructions
+
+### Step 2: Get the Code
+1. Download this project as ZIP file
+2. Extract the ZIP file to your computer
+3. Open the folder and find the `src` folder
+
+### Step 3: Upload Code to Arduino
+1. Connect Arduino to computer using USB cable
+2. Open Arduino IDE
+3. Go to Tools → Board → Select "Arduino Uno"
+4. Go to Tools → Port → Select correct COM port
+5. Open the file `src/4wd_robot_car.ino`
+6. Click Upload button (right arrow icon)
+7. Wait for "Done uploading" message
+
+## 📱 Mobile App Configuration
+
+### Step 1: Install Bluetooth App
+       For Android:
+1. Open Google Play Store
+2. Search for "Bluetooth RC Controller"
+3. Install any of these apps:
+   • "Arduino Bluetooth Controller"
+   • "Bluetooth Controller for Arduino"
+   • "BT Control - RC Controller"
+
+### Step 2: Bluetooth Pairing
+1. Turn ON the robot car power
+2. Go to your phone's Settings → Bluetooth
+3. Turn ON Bluetooth
+4. Search for available devices
+5. Find "HC-05" https in the list
+6. Tap to pair
+7. Enter PIN: 1234
+8. Wait for "Paired" or "Connected" status
+
+### Step 3: App Settings
+1. Open the Bluetooth control app
+2. Go to Settings or Connection menu
+3. Select "HC-05" from device list
+4. Configure these settings:
+
+   
 
