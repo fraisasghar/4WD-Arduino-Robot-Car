@@ -87,10 +87,8 @@ This project transforms a standard 4WD robot chassis into a smart, wirelessly co
    Step 3: Connect motors to L298N outputs
    Step 4: Wire power system and batteries
    Step 5: Connect all control wires as per circuit diagram. Make these 10 connections:
-   • Arduino 5V → L298N +5V
-   • Arduino GND → L298N GND
-   • D5 → IN1, D6 → IN2, D9 → ENA
-   • D7 → IN3, D8 → IN4, D10 → ENB
+   • Arduino 5V → L298N +5V  • Arduino GND → L298N GND
+   • D5 → IN1, D6 → IN2, D9 → ENA, D7 → IN3, D8 → IN4, D10 → ENB
    • Battery + → L298N +12V.  Battery - → L298N GND
    • Arduino 5V → HC-05 VCC.  Arduino GND → HC-05 GND
    • Arduino TX → HC-05 RX.   Arduino RX → HC-05 TX
@@ -103,70 +101,32 @@ This project transforms a standard 4WD robot chassis into a smart, wirelessly co
 ## 💻 Software Setup
 ```bash
 
-       **Step 1: Install Arduino IDE**
-1. Go to https://www.arduino.cc/en/software
-2. Download Arduino IDE for your operating system
-3. Install the software following on-screen instructions
 
-       **Step 2: Get the Code**
-1. Download this project as ZIP file
-2. Extract the ZIP file to your computer
-3. Open the folder and find the `src` folder
+Step:1. Go to https://www.arduino.cc/en/software   Download Arduino IDE for your operating system
 
-### Step 3: Upload Code to Arduino
-1. Connect Arduino to computer using USB cable
-2. Open Arduino IDE
-3. Go to Tools → Board → Select "Arduino Uno"
-4. Go to Tools → Port → Select correct COM port
-5. Open the file `src/4wd_robot_car.ino`
-6. Click Upload button (right arrow icon)
-7. Wait for "Done uploading" message
+Step 2: Upload Code to Arduino
+   • Find the code in `src` folder. Connect Arduino to computer using USB cable
+   • Go to Tools → Board → Select "Arduino Uno"
+   • Go to Tools → Port → Select correct COM port
+   • Open the file `src/4wd_robot_car.ino`. Or just paste the code.
+   • Click Upload button (right arrow icon). Wait for "Done uploading" message
 
-## 📱 Mobile App Configuration
+Step 3: Install any of these apps:
+   • "Arduino Bluetooth Controller" • "Bluetooth Controller for Arduino" • "BT Control - RC Controller"
 
-### Step 1: Install Bluetooth App
-       For Android:
-1. Open Google Play Store
-2. Search for "Bluetooth RC Controller"
-3. Install any of these apps:
-   • "Arduino Bluetooth Controller"
-   • "Bluetooth Controller for Arduino"
-   • "BT Control - RC Controller"
+Step 4: Bluetooth Pairing
+   • Turn ON the robot car power. Turn ON Bluetooth
+   • Search for available devices. Find "HC-05" https in the list
+   • Tap to pair. Enter PIN: 1234. Wait for "Paired" or "Connected" status
 
-### Step 2: Bluetooth Pairing
-1. Turn ON the robot car power
-2. Go to your phone's Settings → Bluetooth
-3. Turn ON Bluetooth
-4. Search for available devices
-5. Find "HC-05" https in the list
-6. Tap to pair
-7. Enter PIN: 1234
-8. Wait for "Paired" or "Connected" status
-
-### Step 3: App Settings
-1. Open the Bluetooth control app
-2. Go to Settings or Connection menu
-3. Select "HC-05" from device list
-4. Configure these settings:
-
-• Baud Rate: 9600
-• Data Bits: 8
-• Stop Bits: 1
-• Parity: None
-
-5. Save settings and tap "Connect"
+Step 5: App Settings
+   • Open the Bluetooth control app. Go to Settings/Connection menu. Select "HC-05" from device list.
+   • Configure these settings:
+   • Baud Rate: 9600   • Data Bits: 8  • Stop Bits: 1   • Parity: None
+   • Save settings and tap "Connect"
 
 ```
-### 📱 Mobile App Button Controls
 
-| Button | Action | What Happens |
-|--------|--------|--------------|
-| ▲ Forward | Sends 'F' | Car moves forward |
-| ▼ Backward | Sends 'B' | Car moves backward |
-| ◀ Left | Sends 'L' | Car turns left |
-| ▶ Right | Sends 'R' | Car turns right |
-| ⏹ Stop | Sends 'S' | Car stops |
-| 0-9 | Sends '0' to '9' | Changes speed (0=slow, 9=fast) |
 
 ## 🔧 Testing & Troubleshooting
 
@@ -213,26 +173,6 @@ This project transforms a standard 4WD robot chassis into a smart, wirelessly co
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 </div>
 
@@ -252,17 +192,3 @@ This car is not just a project—it's a platform for innovation, learning, and d
 <div align="center">
 
 ---
-**© 2023 AWD Arduino Robot Car Project**  
-*All designs, code, and documentation open for innovation*
-
-**📧 Contact:** project@example.com  
-**🐦 Twitter:** @ArduinoRobotCar  
-**📱 Instagram:** @arduino_robot_car
-
----
-</div>
-
-<div align="center">
-<sub>🚗 Drive into the future of robotics! 🚀</sub>
-</div>
-
