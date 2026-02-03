@@ -4,8 +4,7 @@ Arduino source code placed here.
 
 
 
-
-
+```
 char data; // Variable to store received data
 
 void setup() {
@@ -22,7 +21,6 @@ void setup() {
 void loop() {
   if (Serial.available() > 0) {
     data = Serial.read(); // Read received data
-
     // Control motor movement based on received data
     switch (data) {
       case 'F': // Move Forward
