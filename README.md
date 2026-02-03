@@ -74,14 +74,9 @@ This project transforms a standard 4WD robot chassis into a smart, wirelessly co
 <img width="1200" height="700" alt="Image" src="https://github.com/user-attachments/assets/4865ce66-9331-477b-a108-7dafa4fec372" />
 
 
-
-
-## Installation
-
-### Step-by-Step Setup
-
-1. **Hardware Assembly**
+## Hardware Assembly
    ```bash
+
    Step 1: Assemble the 4WD chassis with motors
    Step 2: Mount Arduino and L298N on chassis
    Step 3: Connect motors to L298N outputs
@@ -92,16 +87,10 @@ This project transforms a standard 4WD robot chassis into a smart, wirelessly co
    • Battery + → L298N +12V.  Battery - → L298N GND
    • Arduino 5V → HC-05 VCC.  Arduino GND → HC-05 GND
    • Arduino TX → HC-05 RX.   Arduino RX → HC-05 TX
-    Step 6. Upload the code. Pair Bluetooth (PIN: 1234). Test with mobile app
-
-
-
-
-
-## 💻 Software Setup
-```bash
-
-
+    Step 6. Upload the code. Pair Bluetooth (PIN: 1234). Test with mobile app.
+```
+## Software Setup:
+```
 Step:1. Go to https://www.arduino.cc/en/software   Download Arduino IDE for your operating system
 
 Step 2: Upload Code to Arduino
@@ -124,18 +113,15 @@ Step 5: App Settings
    • Configure these settings:
    • Baud Rate: 9600   • Data Bits: 8  • Stop Bits: 1   • Parity: None
    • Save settings and tap "Connect"
-
 ```
 
 
 ## 🔧 Testing & Troubleshooting
 
-### Initial Power Test:
-1. Connect battery to car
-2. Check these lights:
+Connect battery to car. Check these lights:
    - **Arduino** - Green power LED = ON
    - **L298N** - Red power LED = ON
-   - **HC-05** - LED blinking (searching) or solid (connected)
+   - **HC-05** - LED blinking (searching) or solid (connected).
 
 
 
@@ -153,8 +139,7 @@ Step 5: App Settings
 
 
 
-
-
+<br>
 
 
 <div align="center">
@@ -170,25 +155,3 @@ Step 5: App Settings
 
 
 
-
-
-
----
-</div>
-
-<div align="center" style="background: linear-gradient(135deg, #00979d 0%, #ffd343 100%); padding: 20px; border-radius: 10px; margin: 30px 0;">
-
-### 🏁 Final Note
-**Your journey in robotics has just begun!**  
-This car is not just a project—it's a platform for innovation, learning, and discovery.
-
-**Keep Building • Keep Learning • Keep Innovating**
-
-[![Made with Arduino](https://img.shields.io/badge/Made%20with-Arduino-00979D?style=for-the-badge&logo=arduino)](https://arduino.cc)
-[![Open Source](https://img.shields.io/badge/Open%20Source-❤-red?style=for-the-badge)](https://opensource.org)
-
-</div>
-
-<div align="center">
-
----
